@@ -24,10 +24,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title:
-              const Text("Crear Cuenta", style: TextStyle(color: Colors.black)),
+          title: Text("Registrate"),
           centerTitle: true,
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.orangeAccent,
         ),
         body: SingleChildScrollView(
             child: Container(
